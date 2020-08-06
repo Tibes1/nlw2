@@ -21,8 +21,10 @@
     font-size: 60%; /* controle das medidas rem */
 }
 
-body {
-    background-color: var(--color-background);
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 * {
@@ -31,8 +33,30 @@ body {
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base)
+}
+
+
 #container {
-    background-color: ;
-    display: inline-block;
-    
+    width: 90vw;
+    max-width: 700px;
+    margin-top: 10vh;
+}
+
+@media (min-width: 700px){
+    :root {
+        font-size: 62.5%
+    }
 }
