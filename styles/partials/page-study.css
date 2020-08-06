@@ -4,53 +4,6 @@
     margin-top: 0;
 }
 
-.page-header {
-    background-color: var(--color-primary);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.page-header .top-bar-container {
-    width: 90%;
-
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 1.6rem 0 ;
-}
-
-.page-header .top-bar-container a {
-    height: 3.2rem;
-    transition: opacity 0.2s;
-}
-
-.page-header .top-bar-container a:hover {
-    opacity: 0.7;
-}
-
-.page-header .top-bar-container img {
-    height: 1.6rem;
-}
-
-.page-header .header-content {
-    width: 90%;
-    margin: 3.2 auto ;
-
-    position: relative;
-}
-
-.page-header .header-content strong {
-    font: 700 3.4rem Archivo ;
-    line-height: auto;
-    color: var(--color-title-in-primary);
-}
-
 #search-teachers label {
     color: var(--color-text-in-primary);
 }
@@ -80,40 +33,6 @@
 }
 #search-teachers button:hover {
     background-color: var(--color-secondary-dark);
-}
-
-.select-block label,
-.input-block label {
-    font-size: 1.4rem;
-    color: var(--color-text-complement);
-}
-
-.select-block select,
-.input-block input {
-    width: 100% ;
-    height: 5.6rem;
-    margin-top: 0.8rem;
-    border-radius: 0.8rem;
-    background-color: var(--color-input-background);
-    border: 1px solid var(--color-line-in-white);
-    outline: 0;
-    padding: 0 1.6rem;
-    font: 1.6rem Archivo;
-    transition: 0.2s;
-}
-
-.input-block {
-    position: relative;
-}
-.input-block:focus-within::after {
-    content: "";
-
-    width:  calc(10% - 3.2rem);
-    height: 2px;
-    background: var(--color-primary-light);
-    position: absolute;
-    left: 1.6rem;
-    bottom: 0;
 }
 
 #page-study main {
