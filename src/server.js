@@ -1,15 +1,11 @@
 //-------------------//
 // requiring dependences
 
-const {
-    pageLanding,
-    pageGiveClasses,
-    pageStudy,
-    saveClasses
-} = require('./pages')
+const express = require('express');
+const server = express();
 
-const express = require('express')
-const server = express()
+const { pageLanding, pageStudy, pageGiveClasses, saveClasses } = require('./pages')
+
 const nunjucks = require('nunjucks')
 
 //------------------//
@@ -23,7 +19,7 @@ nunjucks.configure('src/views', {
 // start and server config
 server
 // receive data from req.body
-.use(express.urlencoded({extended: true}))
+.use(express.urlencoded({ extended: true }))
 // static archives config (css,script,img)
 .use(express.static("public"))
 // HTML routes
