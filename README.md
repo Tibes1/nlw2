@@ -73,12 +73,6 @@ Feito na semana #nextlevelweek02 disponibilizada pela @rocketseat
 # Clone o repositório
 $ git clone https://github.com/Tibes1/nlw2.git
 
-# Acesse a pasta do projeto no prompt de comando
-$ cd next-level-week-proffy
-
-# Acesse a pasta do front-end no prompt de comando
-$ cd web
-
 # Instale as dependências
 $ yarn
 
@@ -101,60 +95,6 @@ $ yarn dev
   <img src="https://user-images.githubusercontent.com/18134442/90579216-ba4cd780-e19b-11ea-9522-386ade776751.png" alt="Proffy-Study-Select-Options" />
   <img src="https://user-images.githubusercontent.com/18134442/90579266-de101d80-e19b-11ea-8472-98f974edc76e.png" alt="Proffy-GiveClasses" />
 </p>
-
-#### 🎲 Executando o mobile
-
-```bash
-# Clone o repositório
-$ git clone https://github.com/Tibes1/nlw2.git
-
-# Acesse a pasta do projeto no prompt de comando
-$ cd next-level-week-proffy
-
-# Acesse a pasta do front-end no prompt de comando
-$ cd mobile
-
-# Instale as dependências
-$ yarn
-
-# Execute o script "dev"
-$ yarn start
-
-# O EXPO iniciará na porta: 19002 - acesse http://localhost:19002, caso não abra automaticamente
-
-# Baixe e abra o cliente do Expo em seu celular via loja de apps
-
-# Aponte para o QRCODE e aguarde a instalação.
-```
-
-## API
-
-#### 🎲 Executando a API
-
-```bash
-# Clone o repositório
-$ git clone https://github.com/Tibes1/nlw2.git
-
-# Acesse a pasta do projeto no prompt de comando
-$ cd next-level-week-proffy
-
-# Acesse a pasta do front-end no prompt de comando
-$ cd server
-
-# Instale as dependências
-$ yarn
-
-# Antes de criar a migrate do banco de dados, deverá ter em sua máquina o Docker com uma instância do PostGres, utilizando o arquivo .env.example (após preencher apenas .env) configure com as credênciais, após isso rode:
-
-$ yarn dev knex:migrate
-
-# Execute o script "dev"
-$ yarn dev
-
-# O backend iniciará na porta: 3333 - utilize a http://localhost:3333 no INSOMINIA, dentro da pasta SERVER existe um arquivo JSON com as configurações de rotas para o INSOMNIA. A API é necessária para o funcionamento correto da aplicação.
-```
-
----
 
 ## Agradecimentos
 
